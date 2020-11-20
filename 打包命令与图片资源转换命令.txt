@@ -1,0 +1,19 @@
+pyinstaller -F -w -i icon.ico __main__.py
+
+pyrcc5 -o resource.py resource.qrc
+
+新建resource.qrc，代码如下：
+
+
+<RCC>
+    <qresource prefix="/">
+        <file>Down.png</file>
+        <file>Enter.png</file>
+        <file>icon.png</file>
+        <file>Left.png</file>
+        <file>Right.png</file>
+        <file>ZoomIn.png</file>
+        <file>Up.png</file>
+        <file>ZoomOut.png</file>
+    </qresource>
+</RCC>

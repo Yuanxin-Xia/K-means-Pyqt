@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Down.png</file>
+        <file>Enter.png</file>
+        <file>icon.png</file>
+        <file>Left.png</file>
+        <file>Right.png</file>
+        <file>ZoomIn.png</file>
+        <file>Up.png</file>
+        <file>ZoomOut.png</file>
+    </qresource>
+</RCC>
